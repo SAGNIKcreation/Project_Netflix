@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+body{
+    background-color: #00000066;
+    background-image: url(HomePagePhoto.jpg);
+    background-repeat:no-repeat;
+}
+nav{
+    height: 86px;
+    width: 1535px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+.netflix-logo{
+    margin: 13px 147px;
+}
+select{
+    background-color: transparent;
+    color: white;
+    padding: 6px 7px;
+    height: 32px;
+    width: 126px;
+    font-size:medium;
+    font-weight: bold;
+    align-items: center;
+    border: 0.5px solid lightgray;
+    border-radius: 4px;
+}
+.language-select{
+    margin: 20px 625px;
+    display: flex;
+}
+input[type="button"]{
+    background-color: #E50914;
+    color: white;
+    margin-left: 20px;
+    padding: 4px 10px;
+    border-color: transparent;
+    height: 32px;
+    width: 77px;
+    font-size:14px;
+    font-weight: bold;
+    align-items: center;
+    justify-items: center;
+    border-radius: 4px;
+}
+h1{
+    font-size: 50px;
+    color: white;
+    align-items: center;
+    
+}
+p{
+    padding-top: 15px;
+    font-size: 25px;
+    color: white;
+    font-weight: normal;
+    align-items: center;
+}
+h3{
+    padding-top: 18px;
+    font-size: 20px;
+    color: white;
+    font-weight: normal;
+    align-items: center;
+}
+h1:hover,p:hover,h3:hover{
+    cursor:text;
+}
+input[type="email"]{
+    height: 56px;
+    width: 377px;
+    background-color: transparent;
+    border-radius: 4px;
+    font-weight: normal;
+    font-size: normal;
+    color: white;
+    border-color: 1px white;
+    padding-left: 8px;
+}
+::placeholder{
+    color: white;
+    opacity: 50%;
+    font-weight: bold;
+    font-size: medium;
+}
+.get-started{
+    margin-top: 14.5px;
+    margin-left: 6px;
+    height: 62px;
+    width: 201px;
+    border-radius: 4px;
+    border: none;
+    background-color: #e50914;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+.get-started:hover{
+    cursor: pointer;
+}
+.final-box{
+    display: flex;
+    height: 56px;
+    display: inline-flex;
+}
+.moto-one{
+    width: 1500px;
+    margin-top: 200px;
+    justify-content: space-evenly;
+}
